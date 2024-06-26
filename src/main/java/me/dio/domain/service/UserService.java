@@ -1,10 +1,13 @@
 package me.dio.domain.service;
 
-import me.dio.domain.model.User;
+import me.dio.domain.model.Usuario;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface UserService {
 
-    User findById(Long id);
+    Usuario findById(Long id);
 
-    User creat(User userToCreate);
+    Usuario create(Usuario usuarioToCreate);
+
 }
