@@ -14,7 +14,8 @@
 	<name>santander-bootcamp-2024</name>
 	<description>Java RESTful API created for santander-bootcamp-2024</description>
 	<properties>
-		<java.version>21</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
